@@ -1,8 +1,8 @@
-lineageglobalactions                      u:object_r:lineage_globalactions_service:s0
-lineagehardware                           u:object_r:lineage_hardware_service:s0
-lineagehealth                             u:object_r:lineage_health_interface_service:s0
-lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
-lineagetrust                              u:object_r:lineage_trust_service:s0
-profile                                   u:object_r:lineage_profile_service:s0
+losglobalactions                      u:object_r:strix_globalactions_service:s0
+loshardware                           u:object_r:strix_hardware_service:s0
+loshealth                             u:object_r:strix_health_interface_service:s0
+loslivedisplay                        u:object_r:strix_livedisplay_service:s0
+lostrust                              u:object_r:strix_trust_service:s0
+losprofile                            u:object_r:strix_profile_service:s0
 
 adbroot_service                           u:object_r:adbroot_service:s0
