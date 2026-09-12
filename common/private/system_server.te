@@ -3,10 +3,10 @@ allow system_server storage_stub_file:dir getattr;
 allow system_server adbroot_service:service_manager find;
 
 # Use HALs
-hal_client_domain(system_server, hal_lineage_health)
-hal_client_domain(system_server, hal_lineage_livedisplay)
-hal_client_domain(system_server, hal_lineage_touch)
-hal_client_domain(system_server, hal_lineage_powershare)
+hal_client_domain(system_server, hal_strix_health)
+hal_client_domain(system_server, hal_strix_livedisplay)
+hal_client_domain(system_server, hal_strix_touch)
+hal_client_domain(system_server, hal_strix_powershare)
 
 # Let system server find camera properties
 get_prop(system_server, camera2_extensions_prop)

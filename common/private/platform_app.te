@@ -2,7 +2,7 @@
 allow platform_app nfc_service:service_manager find;
 
 # Allow LiveDisplay HAL service to be found
-hal_client_domain(platform_app, hal_lineage_livedisplay)
+hal_client_domain(platform_app, hal_strix_livedisplay)
 
 # Allow PowerShare HAL service to be found
-hal_client_domain(platform_app, hal_lineage_powershare)
+hal_client_domain(platform_app, hal_strix_powershare)
